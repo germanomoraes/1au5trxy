@@ -1,4 +1,4 @@
 É um repositorio destinado a atividades de Programação Web I
 
 
-Adiciona repositorio
+Adiciona primeiras atividades
