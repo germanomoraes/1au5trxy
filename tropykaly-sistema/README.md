@@ -1,3 +1,10 @@
+# Atividade 3 - Evolução Arquitetural, Backend em PHP e Deploy
+
+**Aluno:** Germano de Oliveira Moraes  
+**Curso:** Análise e Desenvolvimento de Sistemas (ADS) - IFCE Campus Boa Viagem  
+**Professor:** Prof. Dr. Renato William Rodrigues de Souza  
+**Disciplina:** Programação Web I  
+
 # Tropykaly - Sistema de Pizzaria 
 
 Um sistema completo de e-commerce para pizzaria com frontend responsivo e backend em PHP, rodando em Docker.
@@ -16,13 +23,6 @@ Um sistema completo de e-commerce para pizzaria com frontend responsivo e backen
 
 - Docker instalado
 - Docker Compose instalado
-
-# Atividade 3 - Evolução Arquitetural, Backend em PHP e Deploy
-
-**Aluno:** Germano de Oliveira Moraes  
-**Curso:** Análise e Desenvolvimento de Sistemas (ADS) - IFCE Campus Boa Viagem  
-**Professor:** Prof. Dr. Renato William Rodrigues de Souza  
-**Disciplina:** Programação Web I  
 
 ---
 
