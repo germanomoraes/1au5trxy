@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-# # PWEB-laravel - Atividade Prática: Rotas, Views e Controllers
+# PWEB-laravel - Atividade Prática: Rotas, Views e Controllers
 
 Repositório destinado à resolução da atividade prática da disciplina de **Programação Web I** do curso de **Análise e Desenvolvimento de Sistemas** do **IFCE - Campus Boa Viagem**. Desenvolvido por **Germano Moraes** como parte das atividades do IFCE Boa Viagem.
 
@@ -19,25 +19,6 @@ Compreender o funcionamento das rotas no Laravel e sua integração com views e 
 * Laravel Framework
 * Composer
 * VSCode
-
-## Atividades Implementadas
-
-O projeto abrange a implementação das seguintes rotas e funcionalidades:
-
-| Atividade | Rota | Descrição |
-| :--- | :--- | :--- |
-| 1 | `/ola` | Retorna uma mensagem de texto simples. |
-| 2 | `/curso/ads` | Retorna o nome do curso de ADS. |
-| 3 | `/curso/web` | Retorna o nome da disciplina de PWEB. |
-| 4 | `/sobre` | Retorna a view `sobre.blade.php`. |
-| 5 | `/contato` | Retorna a view `contato.blade.php`. |
-| 6 | `/institucional/missao` | Retorna a view `missao.blade.php`. |
-| 7 | `/empresa` | Chama o método `empresa()` no `PaginaController`. |
-| 8 | `/servicos` | Chama o método `servicos()` no `PaginaController` e retorna uma view. |
-| 9 | `/portfolio` / `/blog` | Múltiplas rotas gerenciadas pelo mesmo Controller. |
-| 10 | `/equipe` | Correção de erro de método e criação de view correspondente. |
-| 11 | `/usuario/{nome}` | Rota com parâmetro obrigatório exibido no navegador. |
-| 12 | `/produto/{id}` | Parâmetro de rota processado via Controller. |
 
 ## Como Executar o Projeto
 
