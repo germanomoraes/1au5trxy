@@ -7,60 +7,71 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
+# # PWEB-laravel - Atividade Prática: Rotas, Views e Controllers
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Repositório destinado à resolução da atividade prática da disciplina de **Programação Web I** do curso de **Análise e Desenvolvimento de Sistemas** do **IFCE - Campus Boa Viagem**. Desenvolvido por **Germano Moraes** como parte das atividades do IFCE Boa Viagem.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Objetivos
+Compreender o funcionamento das rotas no Laravel e sua integração com views e controllers, seguindo o padrão arquitetural MVC (Model-View-Controller).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Tecnologias Utilizadas
+* PHP
+* Laravel Framework
+* Composer
+* VSCode
 
-## Learning Laravel
+## Atividades Implementadas
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+O projeto abrange a implementação das seguintes rotas e funcionalidades:
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+| Atividade | Rota | Descrição |
+| :--- | :--- | :--- |
+| 1 | `/ola` | Retorna uma mensagem de texto simples. |
+| 2 | `/curso/ads` | Retorna o nome do curso de ADS. |
+| 3 | `/curso/web` | Retorna o nome da disciplina de PWEB. |
+| 4 | `/sobre` | Retorna a view `sobre.blade.php`. |
+| 5 | `/contato` | Retorna a view `contato.blade.php`. |
+| 6 | `/institucional/missao` | Retorna a view `missao.blade.php`. |
+| 7 | `/empresa` | Chama o método `empresa()` no `PaginaController`. |
+| 8 | `/servicos` | Chama o método `servicos()` no `PaginaController` e retorna uma view. |
+| 9 | `/portfolio` / `/blog` | Múltiplas rotas gerenciadas pelo mesmo Controller. |
+| 10 | `/equipe` | Correção de erro de método e criação de view correspondente. |
+| 11 | `/usuario/{nome}` | Rota com parâmetro obrigatório exibido no navegador. |
+| 12 | `/produto/{id}` | Parâmetro de rota processado via Controller. |
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## Como Executar o Projeto
 
-## Laravel Sponsors
+1.  **Clone o repositório:**
+    ```bash
+    git clone https://github.com/germanomoraes/PWEB.git
+    ```
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+2.  **Navegue até a pasta do projeto:**
+    ```bash
+    cd PWEB/PWEB-laravel
+    ```
 
-### Premium Partners
+3.  **Instale as dependências do PHP:**
+    ```bash
+    composer install
+    ```
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+4.  **Configure o ambiente:**
+    * Crie o arquivo `.env` copiando o `.env.example`:
+        ```bash
+        cp .env.example .env
+        ```
+    * Gere a chave da aplicação:
+        ```bash
+        php artisan key:generate
+        ```
 
-## Contributing
+5.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    php artisan serve
+    ```
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+6.  **Acesse no navegador:**
+    [http://localhost:8000](http://localhost:8000)
 
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+---
