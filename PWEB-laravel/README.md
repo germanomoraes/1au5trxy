@@ -42,7 +42,6 @@ Compreender o funcionamento das rotas no Laravel e sua integração com views e 
     ```bash
     php artisan serve
     ```
-APP_NAME=Laravel
 
 6.  **Acesse no navegador:**
     [http://localhost:8000](http://localhost:8000)
